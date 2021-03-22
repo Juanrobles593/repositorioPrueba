@@ -1,0 +1,10 @@
+const prompt = require('prompt-sync')();
+console.log("ADIVINADOR DE NÚMEROS");
+console.log("Piensa en un número del 1 al 10... Lo pensastes?, da clic en Enter "+ prompt());
+console.log("Sumale 4 al número que pensastes... Lo hicistes?, da Enter "+ prompt());
+console.log("Restale 2 al resultado anterior... Lo hicistes?, da Enter "+ prompt());
+console.log("Sumale 10 al resultado anterior... Lo hicistes?, da Enter "+ prompt());
+console.log("Sumale 6 al resultado anterior... Lo hicistes?, da Enter "+ prompt());
+console.log("Restale el número que pensastes... Lo hicistes da Enter? "+ prompt());
+console.log("El resultado es 18!!         "+ prompt());
+console.log("Gracias por jugar ADIVINADOr DE NÚMEROS")+prompt();
